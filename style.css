@@ -42,32 +42,26 @@ p{
     padding: 18px;
     background-color: var(--grey);
     border-radius: 1px;
-    box-shadow: 4px 4px 1px #3f3f3f;
+    box-shadow: 4px 4px 1px #b8bfff;
     transition: all 0.6s;
 }
 .text:hover{
     transform: translateY(-6px);
 }
-.color-green{
-    color: var(--green);
-}
-
-.color-violet{
-    color: var(--violet);
-}
-
-.color-blue{
-    color: var(--blue)
-}
-
-
-
-
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - colors - - - - - - - - - - - - - - - - - - - - - - -  */
 
+:root{ --cyan: #00FFFF;}
 :root{ --blue: #4f5aeb;}
 :root{ --grey: #242424;}
-:root{ --green: #20e641; }
+:root{ --purple: #9B00FF;}
 :root{ --violet: #b451e2;}
+:root{ --pink: #FF6EC7;}
+:root{ --green: #20e641; }
+:root{ --turquoise: #00F9A8;}
+:root{ --lime: #BFFF00;}
+:root{ --yellow: #FFFF33 ;}
+:root{ --orange: #FF5F00 ;}
+:root{ --red: #FF073A;}
+
