@@ -1,14 +1,21 @@
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 70,
             "density": {
                 "enable": true,
-                "value_area": 900
+                "value_area": 700
             }
         },
         "color": {
-            "value": "#ffffff"
+            "value": "#FF6EC7"
+        },
+        "line_linked": {
+            "enable": true      , // Ativar linhas entre partículas
+            "distance": 150,
+            "color": "#FF6EC7",
+            "opacity": 0.5,
+            "width": 1
         },
         "shape": {
             "type": "circle", // Outras opções: "triangle", "star", "polygon", "edge"
@@ -27,7 +34,7 @@ particlesJS("particles-js", {
         },
         "opacity": {
             "value": 0.4,
-            "random": true, // Ativar opacidade aleatória
+            "random": false, // Ativar opacidade aleatória
             "anim": {
                 "enable": true, // Ativar animação de opacidade
                 "speed": 1,
@@ -45,21 +52,14 @@ particlesJS("particles-js", {
                 "sync": false
             }
         },
-        "line_linked": {
-            "enable": true      , // Ativar linhas entre partículas
-            "distance": 150,
-            "color": "#ffffff",
-            "opacity": 0.4,
-            "width": 1
-        },
         "move": {
             "enable": true,
-            "speed": 2,
+            "speed": 1.4,
             "direction": "none", // Outras opções: "top", "top-right", "right", "bottom-right", "bottom", "bottom-left", "left", "top-left"
             "random": false, // Movimento aleatório
             "straight": false, // Movimento em linha reta
             "out_mode": "out", // Outras opções: "bounce"
-            "bounce": false, // Ativar colisão com bordas
+            "bounce": true, // Ativar colisão com bordas
             "attract": {
                 "enable": false, // Ativar atração entre partículas
                 "rotateX": 600,
