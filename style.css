@@ -171,16 +171,8 @@ p{
     justify-content: space-between;
     height: auto;
 }
-.card-top{
-    /* background-color: #e25b51; */
-    width: 100%;
-    height: 40%;
-    & img{
-        height: 100%;
-        opacity: 0.8;
-    }
-}
-.card{
+.card {
+    cursor: pointer;
     position: relative;
     background-color: var(--grey);
     width: 20%;
@@ -190,9 +182,65 @@ p{
     transition: all 0.65s;
 }
 
+.card-top {
+    background-color: #e25b51;
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+    border-top-left-radius: 8px; /* Aplica o border-radius corretamente */
+    border-top-right-radius: 8px;
+}
+.card-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Garante que a imagem preencha a área, mas pode distorcer */
+    filter: brightness(80%);
+    transition: all 0.80s;
+}
+
+.card-bottom{
+    background-color: #00F9A8;
+    position: absolute;
+    padding: 15px;
+    font-family: "Tektur", sans-serif;
+    font-weight: 200;
+    color: var(--grey2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    p{
+        text-align: center;
+        color: var(--grey2);
+        margin: 10px 0px 10px;
+
+    }
+
+    h1{
+        margin: 0px;
+        transition: all 0.8s;
+    }
+}
 .card:hover{
     transform: scale(1.03);
     border: 1.5px #fd6cc3 solid;
+
+    .card-top img{
+        filter: brightness(100%);
+    }
+
+    .card-bottom{
+        p{
+
+        }
+
+        h1{
+            color: var(--pink);
+        }
+    }
+
 }
 
 .contato{
@@ -202,17 +250,19 @@ p{
 
 /* - - - - - - - - - - - - - - - - - - - - - - - colors - - - - - - - - - - - - - - - - - - - - - - -  */
 
-
-:root{ --cyan: #00FFFF;}
-:root{ --blue: #4f5aeb;}
-:root{ --grey: #242424;}
-:root{ --purple: #9B00FF;}
-:root{ --violet: #b451e2;}
-:root{ --pink: #FF6EC7;}
-:root{ --green: #20e641; }
-:root{ --turquoise: #00F9A8;}
-:root{ --lime: #BFFF00;}
-:root{ --yellow: #FFFF33 ;}
-:root{ --orange: #FF5F00 ;}
-:root{ --red: #FF073A;}
+:root {
+    --cyan: #00FFFF;
+    --blue: #4f5aeb;
+    --grey: #242424;
+    --grey2: #dfdfdf;
+    --purple: #9B00FF;
+    --violet: #b451e2;
+    --pink: #FF6EC7;
+    --green: #20e641;
+    --turquoise: #00F9A8;
+    --lime: #BFFF00;
+    --yellow: #FFFF33;
+    --orange: #FF5F00;
+    --red: #FF073A;
+}
 
