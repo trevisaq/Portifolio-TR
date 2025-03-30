@@ -12,7 +12,7 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": true      , // Ativar linhas entre partículas
-            "distance": 150,
+            "distance": 120,
             "color": "#FF6EC7",
             "opacity": 0.5,
             "width": 1
@@ -54,7 +54,7 @@ particlesJS("particles-js", {
         },
         "move": {
             "enable": true,
-            "speed": 1.4,
+            "speed": 0.8,
             "direction": "none", // Outras opções: "top", "top-right", "right", "bottom-right", "bottom", "bottom-left", "left", "top-left"
             "random": false, // Movimento aleatório
             "straight": false, // Movimento em linha reta
@@ -108,3 +108,5 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
 });
+
+
