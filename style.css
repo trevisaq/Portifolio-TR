@@ -1,6 +1,9 @@
 *{
     /* scroll-behavior: smooth; */
 }
+h1{
+    margin: 0;
+}
 body, html{
     user-select: none;
     margin: 0;
@@ -23,6 +26,7 @@ body, html{
 }   
 header{
     /* background-color: #00F9A8; */
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,8 +85,14 @@ a{
 svg{
     width: 100px;
 }
-
-
+.welcome{
+    /* background-color: rgb(166, 180, 63); */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .hello{
     margin: 5vh 0 0 0;
@@ -132,15 +142,16 @@ svg{
     font-family: "Tektur", sans-serif;
     font-weight: 300;
     font-size: 60px;
-    /* color: rgb(255, 255, 255); */
+    margin-bottom: 55px;
+
 }
 p{
     color: aliceblue;
     font-family: "PT Sans", sans-serif;
 }
 .text-div{
+    
     position: relative;
-    cursor: pointer;
     display: flex;
     width: 100%;
     align-items: center;
@@ -154,16 +165,25 @@ p{
     transform: translateY(-6px);
 }
 .aboutme{
-    margin: 10vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .text{
+    margin:0;
     font-size: 22px;
     width: 60vw;
     text-align: center; 
     /* opacity: 0.85; */
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    /* background-color: #00FFFF; */
 }
 .cards{
     display: flex;
@@ -183,7 +203,7 @@ p{
 }
 
 .card-top {
-    background-color: #e25b51;
+    /* background-color: #e25b51; */
     width: 100%;
     height: 40%;
     overflow: hidden;
@@ -199,7 +219,7 @@ p{
 }
 
 .card-bottom{
-    background-color: #00F9A8;
+    /* background-color: #00F9A8; */
     position: absolute;
     padding: 15px;
     font-family: "Tektur", sans-serif;
@@ -245,6 +265,18 @@ p{
 
 .contato{
     margin-bottom: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: var(--grey);
+    div{
+        width: 300px;
+    }
 }
 
 
