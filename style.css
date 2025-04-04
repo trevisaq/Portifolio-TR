@@ -271,7 +271,18 @@ footer{
     height: 8vh;
     background-color: var(--grey);
     & div{
-        width: 12vw;
+        width: 13vw;
+    }
+    & .footer-icons-personal{
+        & img{
+            margin-left: 0.8vw;
+            margin-right: 0.8vw;
+            height: 4vh;
+            transition: all 0.6s;
+        }
+        & img:hover{
+            transform:scale(1.5);
+        }
     }
     & .footer-icons-social{
         & .rotate-icon{
@@ -283,17 +294,6 @@ footer{
         & .rotate-icon:hover{
             transform: rotate(20deg);
             opacity: 40%;
-        }
-    }
-    & .footer-icons-personal{
-        & img{
-            margin-left: 0.8vw;
-            margin-right: 0.8vw;
-            height: 3.5vh;
-            transition: all 0.6s;
-        }
-        & img:hover{
-            transform:scale(1.5);
         }
     }
 }
