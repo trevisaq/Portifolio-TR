@@ -1,30 +1,13 @@
-*{
-    /* scroll-behavior: smooth; */
-}
-h1{
-    margin: 0;
-}
 body, html{
     user-select: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
-    background-color: #000;
+    background-color: #0a0a0a;
     color: white;   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-#particles-js{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    pointer-events: none        ;
-}   
+} 
 header{
     /* background-color: #00F9A8; */
     height: 10vh;
@@ -151,8 +134,8 @@ p{
     font-family: "PT Sans", sans-serif;
 }
 .text-div{
-    
     position: relative;
+    padding: 2vh;
     display: flex;
     width: 100%;
     align-items: center;
@@ -165,7 +148,7 @@ p{
 .text-div:hover{
     transform: translateY(-6px);
 }
-.aboutme{
+.whoami{
     height: 55vh;
     display: flex;
     flex-direction: column;
@@ -177,7 +160,6 @@ p{
     font-size: 22px;
     width: 60vw;
     text-align: center; 
-    /* opacity: 0.85; */
 }
 .projects{
     display: flex;
@@ -189,10 +171,11 @@ p{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     height: auto;
 }
 .card {
+    opacity: 90%;
     cursor: pointer;
     position: relative;
     background-color: var(--grey);
@@ -202,6 +185,26 @@ p{
     border-radius: 8px;
     transition: all 0.4s;
 }
+
+.card:hover{
+    transform: scale(1.03);
+    border: 1.5px #fd6cc3 solid;
+    opacity: 100%;
+
+
+     & .card-top img{
+        filter: brightness(100%);
+    }
+    & .card-bottom{
+        h1{
+            color: var(--pink);
+        }
+        b{
+            color: var(--pink);
+        }
+    }
+}
+
 
 .card-top {
     /* background-color: #e25b51; */
@@ -245,21 +248,7 @@ p{
         transition: all 0.8s;
     }
 }
-.card:hover{
-    transform: scale(1.03);
-    border: 1.5px #fd6cc3 solid;
-     & .card-top img{
-        filter: brightness(100%);
-    }
-    & .card-bottom{
-        h1{
-            color: var(--pink);
-        }
-        b{
-            color: var(--pink);
-        }
-    }
-}
+
 
 
 footer{
@@ -309,7 +298,52 @@ footer{
     transform: rotate(0deg);
     opacity: 40%;
 }
+
+.andmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    margin: 100px 0px 100px 0px;
+    gap: 2%;
+    /* background-color: #00FFFF; */
+}
+
+.card-aboutme{
+    width: 30%;
+    background-color: #212121;
+    transition: all 0.6s;
+}
+
+.card-aboutme:hover{
+    transform: scale(1.1);   
+}
+
+.above{
+    margin: 2vh;
+    /* background-color: #00F9A8; */
+
+    h3{
+        font-weight: 500;
+        opacity: 60%;
+    }
+}
+
+.under{
+    /* background-color: #00F9A8; */
+    height: auto;
+}
+
+
+  
 /* - - - - - - - - - - - - - - - - - - - - - - - colors - - - - - - - - - - - - - - - - - - - - - - -  */
+
+*{
+    font-family: "Tektur", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --cyan: #00FFFF;
@@ -326,4 +360,14 @@ footer{
     --orange: #FF5F00;
     --red: #FF073A;
 }
+
+#particles-js{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}  
 
