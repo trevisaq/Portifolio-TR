@@ -12,7 +12,7 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": true      , // Ativar linhas entre partículas
-            "distance": 120,
+            "distance": 130,
             "color": "#FF6EC7",
             "opacity": 0.5,
             "width": 1
