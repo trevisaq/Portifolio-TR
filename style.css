@@ -190,6 +190,8 @@ p{
     transform: scale(1.03);
     border: 1.5px #fd6cc3 solid;
     opacity: 100%;
+    box-shadow: 4px 4px 20px rgba(253, 108, 195, 0.3);
+
 
 
      & .card-top img{
@@ -267,10 +269,10 @@ footer{
             margin-left: 0.8vw;
             margin-right: 0.8vw;
             height: 4vh;
-            transition: all 0.6s;
+            transition: all 0.4s;
         }
         & img:hover{
-            transform:scale(1.5);
+            transform:scale(2);
         }
     }
     & .footer-icons-social{
@@ -310,32 +312,44 @@ footer{
     /* background-color: #00FFFF; */
 }
 
-.card-aboutme{
+.card-aboutme {
+    height: 100%;
     width: 30%;
-    background-color: #212121;
-    transition: all 0.6s;
-}
+    box-shadow: 2px 2px 10px rgba(70, 60, 70, 30);
+    transition: all 0.5s;
+    cursor: pointer;
+    overflow: hidden;
 
-.card-aboutme:hover{
-    transform: scale(1.1);   
-}
-
-.above{
-    margin: 2vh;
-    /* background-color: #00F9A8; */
-
-    h3{
-        font-weight: 500;
-        opacity: 60%;
+    & img{
+        position: relative;
+        filter: opacity(30%);
+        transition: all 0.5s;
     }
 }
 
-.under{
-    /* background-color: #00F9A8; */
-    height: auto;
+.card-aboutme:hover {
+    transform: scale(1.03);
+    border: 1.5px #fd6cc3 solid;
+    box-shadow: 4px 4px 20px rgba(253, 108, 195, 0.3);
+
+    & img{
+        filter: opacity(70%);
+    }
 }
 
+.above{
+    height: 100%;
 
+    h3{
+        margin: 0 0 0 1.5vw;
+        font-weight: 500;
+        opacity: 60%;
+    }
+
+    h1{
+        margin: 2vh 0 0 1.5vw
+    }
+}
   
 /* - - - - - - - - - - - - - - - - - - - - - - - colors - - - - - - - - - - - - - - - - - - - - - - -  */
 
