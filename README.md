@@ -1,4 +1,4 @@
-# Meu portifólio pessoal 💼
+# - - Meu portifólio pessoal - -
 ## Bem-vindo ao meu portfólio! Este repositório contém alguns dos projetos que desenvolvi na minha jornada como desenvolvedor até agora. Dê uma olhada nos meus pensamentos, estudos e formações!
 
 ## 🚀 Tecnologias Utilizadas
