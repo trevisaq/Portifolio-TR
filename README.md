@@ -6,7 +6,7 @@
 - HTML5
 - CSS3
 - JavaScript
-- Biblioteca Particles.js
+- Biblioteca ⚛ Particles.js 
 
 ## 📁 Estrutura
 
