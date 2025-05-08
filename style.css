@@ -171,14 +171,15 @@ p{
     height: auto;
 }
 .card {
-    opacity: 90%;
-    cursor: pointer;
-    position: relative;
-    background-color: var(--grey);
-    width: 22%;
+    margin: 20px;
+    width: 360px;
     height: 450px;
-    border: 1px var(--grey) solid;
+    opacity: 90%;
     border-radius: 8px;
+    position: relative;
+    border: 1px var(--grey) solid;
+    background-color: var(--grey);
+    cursor: pointer;
     transition: all 0.4s;
 }
 
@@ -307,8 +308,8 @@ footer{
 }
 
 .card-aboutme {
-    height: 100%;
-    width: 440px;
+    height: 470px;
+    width: 470px;
     box-shadow: 2px 2px 10px rgba(70, 60, 70, 30);
     transition: all 0.5s;
     cursor: pointer;
