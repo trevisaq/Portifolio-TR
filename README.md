@@ -1,5 +1,5 @@
 # Meu portifólio pessoal 💼
-## Bem-vindo ao meu portfólio! Este repositório contém alguns dos projetos que desenvolvi ao longo da minha jornada como desenvolvedor(a) até agora. Dê uma olhada nos meus pensamentos, estudos e formações!
+## Bem-vindo ao meu portfólio! Este repositório contém alguns dos projetos que desenvolvi na minha jornada como desenvolvedor até agora. Dê uma olhada nos meus pensamentos, estudos e formações!
 
 ## 🚀 Tecnologias Utilizadas
 
