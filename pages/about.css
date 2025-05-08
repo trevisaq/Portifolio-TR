@@ -1,0 +1,12 @@
+h1{
+    font-family: "Tektur", sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    background-color: blueviolet;
+}

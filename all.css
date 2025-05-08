@@ -1,0 +1,44 @@
+
+:root {
+    --cyan: #00FFFF;
+    --blue: #4f5aeb;
+    --grey: #242424;
+    --grey2: #dfdfdf;
+    --purple: #9B00FF;
+    --violet: #b451e2;
+    --pink: #FF6EC7;
+    --green: #20e641;
+    --turquoise: #00F9A8;
+    --lime: #BFFF00;
+    --yellow: #FFFF33;
+    --orange: #FF5F00;
+    --red: #FF073A;
+}
+body, html{
+    user-select: none;
+    width: 100%;
+    background-color: #0a0a0a;
+    color: white;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: "Tektur", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#particles-js{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}  
